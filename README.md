@@ -1,6 +1,6 @@
 ﻿# Quotely Android downloads
 
-**Download the current APK:** [Quotely Android preview 23](https://github.com/jeesry22-afk/Invoice-App-Downloads/raw/refs/heads/main/Quotely-Android-v1.0.0-preview.23.apk)
+**Download the current APK:** [Quotely Version 1.0.1](https://github.com/jeesry22-afk/Invoice-App-Downloads/raw/refs/heads/main/Quotely-Android-v1.0.0-preview.23.apk)
 
 Preview 23 improves how Quotely reconnects after Android has left it idle. Account pages wait for an expired session to refresh and retry brief connection failures before showing an error. The Dashboard bell shows quotation decisions, recorded demo payments, and document emails. Tap an update to open its invoice or quotation. A separate payment notice is sent to the sender's saved business email and states that no funds were transferred.
 
