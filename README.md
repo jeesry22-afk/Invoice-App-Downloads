@@ -1,8 +1,8 @@
 ﻿# Quotely Android downloads
 
-**Download the current APK:** [Quotely Version 1.0.1](https://github.com/jeesry22-afk/Invoice-App-Downloads/raw/refs/heads/main/Quotely-Android-v1.0.0-preview.23.apk)
+**Download the current APK:** [Quotely Version 1.0.1](https://github.com/jeesry22-afk/Invoice-App-Downloads/raw/refs/heads/main/Quotely-Android-v1.0.0-preview.24.apk)
 
-Preview 23 improves how Quotely reconnects after Android has left it idle. Account pages wait for an expired session to refresh and retry brief connection failures before showing an error. The Dashboard bell shows quotation decisions, recorded demo payments, and document emails. Tap an update to open its invoice or quotation. A separate payment notice is sent to the sender's saved business email and states that no funds were transferred.
+Preview 24 lets you delete individual updates from the Dashboard bell and keeps the newest 100 updates per account. The quotation and invoice web links use Quotely's blue theme. The payment page no longer has a separate top header, and the six-digit code step has no in-page back button. Account pages also recover from brief connection failures after Android has left the app idle.
 
 You can choose PHP, USD, or EUR in Business setup. The simulated invoice checkout displays the converted amount when a client changes payment currency. Before a demo payment is recorded, the client must verify the email address for their receipt with a six-digit code. Codes expire after 10 minutes, with limits on attempts and resends. Invoice details refresh when you return to the app or tap Refresh. No real money is transferred.
 
@@ -10,6 +10,6 @@ This build also includes Google sign-in, cloud records, quotation and invoice em
 
 On Android, open the APK after downloading it and allow installation from your browser or file manager if prompted. You can install it over the previous preview without uninstalling. Keep a copy of important records because in-app backup and restore are not yet available. This preview is signed with an Android development key, not a production Play Store release.
 
-SHA-256: `0C17BBD0BD67DD814773B60E79B73281928F3EF1056D2181FDA95641C401EB4F`
+SHA-256: `510A103819CC2C11E7591D6076D1B4523E1ACCA9983CCE8655B3F53D1693E212`
 
 The app source code is kept in a separate private repository. This repository contains public download information and the current APK.
