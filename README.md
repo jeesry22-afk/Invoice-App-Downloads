@@ -1,17 +1,13 @@
-﻿# Quotely Android downloads
+﻿# Quotely for Android
 
-**Download the current APK:** [Quotely Version 1.0.1](https://github.com/jeesry22-afk/Invoice-App-Downloads/raw/refs/heads/main/Quotely-Android-v1.0.0-preview.27.apk)
+**Download the latest APK:** [Quotely Version 1.0.2](https://github.com/jeesry22-afk/Invoice-App-Downloads/raw/refs/heads/main/Quotely-Android-v1.0.2.apk)
 
-Preview 27 adds Android notifications for client quotation approvals, rejections, and simulated payments. Tapping an alert opens the related document; an alert received while Quotely is open appears in the app. Android may ask for notification permission. The Dashboard bell continues to show updates. Phone alerts require the Firebase sender to be configured on the server.
+Version 1.0.2 includes Google sign-in, cloud quotations and invoices, PDFs, email delivery, client review links, and simulated payment links. Clients can be archived and restored. Clients without documents can be deleted; unsent drafts can be deleted; issued documents can be hidden and restored. Long press or swipe left on a client or document to reveal available actions.
 
-This build uses the updated demo exchange rate of PHP 62 per USD for new conversions. Business setup includes an account-scoped action to label older paid invoices whose source currency was never saved; amounts and payments are unchanged. The Dashboard loading layout matches its greeting and illustration, and quotation review links have no separate header. You can delete individual updates from the Dashboard bell, which keeps the newest 100 per account. The quotation and invoice web links use Quotely's blue theme. The payment page has no separate top header, and the six-digit code step has no in-page back button. Account pages recover from brief connection failures after Android has left the app idle.
+Install the APK over your existing Quotely app to keep its data. Android may ask you to allow installation from your browser or file manager. The current APK is signed with the Android development key and is not a Play Store release.
 
-You can choose PHP, USD, or EUR in Business setup. The simulated invoice checkout displays the converted amount when a client changes payment currency. Before a demo payment is recorded, the client must verify the email address for their receipt with a six-digit code. Codes expire after 10 minutes, with limits on attempts and resends. Invoice details refresh when you return to the app or tap Refresh. No real money is transferred.
+The payment flow is a school project simulation. No real money is transferred. Phone push alerts depend on separate server configuration; the Dashboard bell remains available for in-app updates.
 
-This build also includes Google sign-in, cloud records, quotation and invoice emails, client currency conversion on documents, quotation review links, a simulated payment page with wallet and demo card choices, and email receipts. Demo card details should be fictional; expiration and CVC stay in the browser.
+SHA-256: `7F620F2747B08E8EBC5432F167FE534958FB18B9EC10AB0A7A47BE1C55D39226`
 
-On Android, open the APK after downloading it and allow installation from your browser or file manager if prompted. You can install it over the previous preview without uninstalling. Keep a copy of important records because in-app backup and restore are not yet available. This preview is signed with an Android development key, not a production Play Store release.
-
-SHA-256: `04E2AD2FC648894696991BA484FC2162B7900692A894F1446838191038894228`
-
-The app source code is kept in a separate private repository. This repository contains public download information and the current APK.
+This repository holds the current APK and download information. The app source is maintained in [Invoice-App](https://github.com/jeesry22-afk/Invoice-App).
